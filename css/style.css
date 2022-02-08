@@ -6,7 +6,7 @@ a{
     font-size: 16px;
 }
 .walp{
-    background-image: url(../two/img/tiv.png);
+    background-image: -webkit-image-set(C:\Users\alina\Documents\two\img\tiv.png);
     background-repeat: no-repeat; 
     width: 1440px; 
     height: 594px;
