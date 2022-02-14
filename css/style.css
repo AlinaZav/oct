@@ -1,13 +1,75 @@
-body{
+body, h1, h2, h3, h4{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
-a{
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    max-height: 60px;
+    padding-bottom: 21px;
+
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #69B9FF;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/b.png) no-repeat center top;
+    max-width: 1440px;
+    height: 594px;
+}
+li {
+    list-style-type: none; 
+   }
+.menu{
+    display: flex;
+}
+
+.menu li a{
     text-decoration: none;
     font-size: 16px;
+    margin-right: 40px;
+}
+.c{
+    color: #676770;
+}
+.h{
+    color: #0082F3;
+}
+h1, h2, h3, h4, button{
+    text-transform: uppercase;
+    color: #fff;
+}
+h1{
+    font-size: 59px;
+    letter-spacing: 4px;
+}
+.btn{
+    background: #69B9FF;
+    width: 138px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    margin-top: 106px;
+}
+.bt{
+    background: transparent;
+    border: #fff 1px solid;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    width: 183px;
+    height: 43px;
 }
 .walp{
-    background-image: -webkit-image-set(C:\Users\alina\Documents\two\img\tiv.png);
-    background-repeat: no-repeat; 
-    width: 1440px; 
-    height: 594px;
+    text-align: center;
 }
