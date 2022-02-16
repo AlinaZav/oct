@@ -45,7 +45,7 @@ li {
 .h{
     color: #0082F3;
 }
-h1, h2, h3, h4, button{
+h1, h2, h3, button{
     text-transform: uppercase;
     color: #fff;
 }
@@ -145,4 +145,79 @@ h1{
     letter-spacing: 2px;
     font-size: 16px;
 }
-
+.tab{
+    text-align: center;
+}
+.tab h2{
+    color: #676770;
+    margin-top: 77px;
+}
+.b, .bn{
+    margin-top: 72px;
+    margin-bottom: 52px;
+    background-color: #2E80B6;
+    width: 196px;
+    height: 21px;
+    text-transform:uppercase;
+    border: none;
+    border-radius: 4px;
+    margin-left: 16px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.bn{
+    background-color: #92A0AD;
+}
+.tab h3{
+    color: #676770;
+    margin-top: 16px;
+    text-transform: none;
+    font-size: 31px;
+    margin-bottom: 14px;
+}
+.txt{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    color: #6A859C;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin-top: 129px;
+    margin-bottom: 162px;
+}
+.foot h4{
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #676770;
+    margin-bottom: 25px;
+}
+.about p{
+    text-transform: none;
+    line-height: 25px;
+    font-size: 14px;color: #6A859C;
+    text-align: left;
+}
+.links p{
+    text-align: left;
+    font-size: 13px;
+    color: #668CAD;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    width: 300px;
+}
+.end {
+    background-color: #383838;
+    max-height: 101px;
+    color: #9E9E9E;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 41px;
+}
